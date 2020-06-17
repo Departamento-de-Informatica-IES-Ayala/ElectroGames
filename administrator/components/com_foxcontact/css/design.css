@@ -1,0 +1,35 @@
+input.selext
+{
+	width: 40px;
+	text-align: center;
+}
+
+html[dir="ltr"] input.selext
+{
+	border-right: none;
+}
+
+html[dir="rtl"] input.selext
+{
+	border-left: none;
+}
+
+select.selext
+{
+}
+
+#jform_params_email_body_ifr, /* TinyMce*/
+#jform_params_email_copy_body_ifr
+{
+	height: auto !important;
+}
+
+.editor, /* TinyMce*/
+textarea#jform_params_email_body, /* No editor*/
+textarea#jform_params_email_copy_body,
+div.CodeMirror, /* Codemirror*/
+div#jform_params_email_body_parent, /* JCE*/
+div#jform_params_email_copy_body_parent
+{
+	max-width: 680px;
+}

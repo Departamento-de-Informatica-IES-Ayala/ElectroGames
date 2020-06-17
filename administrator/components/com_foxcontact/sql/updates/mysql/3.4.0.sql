@@ -1,0 +1,4 @@
+INSERT INTO `#__postinstall_messages`
+(`extension_id`, `title_key`, `description_key`, `action_key`, `language_extension`, `type`, `action_file`, `action`, `version_introduced`) VALUES
+(700, 'Fox Contact: HTML Email Templates are now available and enabled by default', 'It''s highly recommended to take a look to the current settings of all your Fox Contact forms. In order to upgrade your configuration <b>do not forget to confirm, saving your settings, even in case of no changes</b>.', 'See the documentation', 'com_foxcontact', 'link', '', 'http://www.fox.ra.it/forum/enquiries-processors/11143-e-mail-notification-models.html', '3.4.0');
+-- should be (SELECT `extension_id` FROM `#__extensions` WHERE element = 'foxcontact' AND type = 'library')

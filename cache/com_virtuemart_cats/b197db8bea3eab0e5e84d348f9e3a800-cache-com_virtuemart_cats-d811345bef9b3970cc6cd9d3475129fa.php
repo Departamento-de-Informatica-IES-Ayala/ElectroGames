@@ -1,0 +1,1 @@
+<?php die("Access Denied"); ?>#x#a:2:{s:6:"result";s:238:"<option selected=\"selected\"  value="5">Consolas</option><option selected=\"selected\"  value="3">Móviles</option><option selected=\"selected\"  value="2">Ordenadores</option><option selected=\"selected\"  value="4">Videojuegos</option>";s:6:"output";s:0:"";}
